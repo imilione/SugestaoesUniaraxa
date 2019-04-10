@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sugestoes_02", "Sugestoes_02\Sugestoes_02.csproj", "{241DBD88-B533-4D1B-9FC6-78B0BE7433F4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Site MVC", "01 - Site MVC", "{6452EC51-0D04-4D18-968E-D344FD18A089}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Camada de Serviços", "02 - Camada de Serviços", "{189F0368-17BC-4483-A469-104C4FB340C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Camada de Negócios", "03 - Camada de Negócios", "{827FADD7-A453-4225-9050-CC6D0BCDACD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Camada de Acesso aos Dados", "04 - Camada de Acesso aos Dados", "{22981D6A-75A5-4A81-BAA5-CF9A9B2DED65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Camada de Modelos", "05 - Camada de Modelos", "{DE88230C-7CCB-475B-B265-7CB8F40FB9BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sugestoes_02_01.VO", "Sugestoes_02_01.VO\Sugestoes_02_01.VO.csproj", "{7430BD0D-5DDA-4ACD-98EC-9C050D3E50E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sugestoes_02_01.DAO", "Sugestoes_02_01\Sugestoes_02_01.DAO.csproj", "{4C684305-C607-4527-AC5E-F179FD6A57AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +23,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{241DBD88-B533-4D1B-9FC6-78B0BE7433F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{241DBD88-B533-4D1B-9FC6-78B0BE7433F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{241DBD88-B533-4D1B-9FC6-78B0BE7433F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{241DBD88-B533-4D1B-9FC6-78B0BE7433F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7430BD0D-5DDA-4ACD-98EC-9C050D3E50E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7430BD0D-5DDA-4ACD-98EC-9C050D3E50E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7430BD0D-5DDA-4ACD-98EC-9C050D3E50E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7430BD0D-5DDA-4ACD-98EC-9C050D3E50E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C684305-C607-4527-AC5E-F179FD6A57AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C684305-C607-4527-AC5E-F179FD6A57AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C684305-C607-4527-AC5E-F179FD6A57AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C684305-C607-4527-AC5E-F179FD6A57AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7430BD0D-5DDA-4ACD-98EC-9C050D3E50E1} = {DE88230C-7CCB-475B-B265-7CB8F40FB9BC}
+		{4C684305-C607-4527-AC5E-F179FD6A57AF} = {22981D6A-75A5-4A81-BAA5-CF9A9B2DED65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E9A2E7D-83B7-4322-9FAC-7E4D43F937AD}
