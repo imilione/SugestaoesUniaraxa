@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sugestoes_02_01.VO", "Suges
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sugestoes_02_01.DAO", "Sugestoes_02_01\Sugestoes_02_01.DAO.csproj", "{4C684305-C607-4527-AC5E-F179FD6A57AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sugestoes_02.BO", "Sugestoes_02.BO\Sugestoes_02.BO.csproj", "{B4D4A8A5-1749-49AF-BEEF-CF02EB1E2895}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{4C684305-C607-4527-AC5E-F179FD6A57AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C684305-C607-4527-AC5E-F179FD6A57AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C684305-C607-4527-AC5E-F179FD6A57AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D4A8A5-1749-49AF-BEEF-CF02EB1E2895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D4A8A5-1749-49AF-BEEF-CF02EB1E2895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D4A8A5-1749-49AF-BEEF-CF02EB1E2895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D4A8A5-1749-49AF-BEEF-CF02EB1E2895}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7430BD0D-5DDA-4ACD-98EC-9C050D3E50E1} = {DE88230C-7CCB-475B-B265-7CB8F40FB9BC}
 		{4C684305-C607-4527-AC5E-F179FD6A57AF} = {22981D6A-75A5-4A81-BAA5-CF9A9B2DED65}
+		{B4D4A8A5-1749-49AF-BEEF-CF02EB1E2895} = {827FADD7-A453-4225-9050-CC6D0BCDACD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E9A2E7D-83B7-4322-9FAC-7E4D43F937AD}
