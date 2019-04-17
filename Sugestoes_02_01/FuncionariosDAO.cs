@@ -8,5 +8,10 @@ namespace Sugestoes_02_01.DAO
 {
     class FuncionariosDAO
     {
+        public int idFuncionario { get; set; }
+        public string Nome { get; set; }
+        public string CPF { get; set; }
+        public string Login { get; set; }
+        public string Senha { get; set; }
     }
 }
